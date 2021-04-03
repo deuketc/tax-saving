@@ -1117,15 +1117,15 @@ ul {
 }
 
 .page-footer_social-list-item-link--facebook {
-  background-image: url("/images/icon-facebook.svg");
+  background-image: url("../images/icon-facebook.svg");
 }
 
 .page-footer_social-list-item-link--twitter {
-  background-image: url("/images/icon-twitter.svg");
+  background-image: url("../images/icon-twitter.svg");
 }
 
 .page-footer_social-list-item-link--instagram {
-  background-image: url("/images/icon-instagram.svg");
+  background-image: url("../images/icon-instagram.svg");
 }
 
 .page-footer_social {
