@@ -9,7 +9,7 @@
       scrub: true,
     },
   });
-
+  /*
   gsap.to('.hero_copy', {
     opacity: 0,
     ease: 'none',
@@ -20,4 +20,5 @@
       scrub: true,
     },
   });
+  */
 })();

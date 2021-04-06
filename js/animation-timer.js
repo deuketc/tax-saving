@@ -91,7 +91,10 @@ function countdownTimer() {
   timerTimeline.add(slideUp());
 
   // Set the date we're counting down to
-  var countDownDate = new Date('Apr 5, 2021 15:37:25').getTime();
+  var dateOneYearAhead = new Date().getFullYear() + 1;
+  var countDownDate = new Date(
+    `Apr 16, ${dateOneYearAhead} 08:37:25`
+  ).getTime();
 
   // Update the count down every 1 second
   var x = setInterval(function () {
@@ -112,6 +115,13 @@ function countdownTimer() {
     seconds = Math.floor((distance % (1000 * 60)) / 1000)
       .toString()
       .split('');
+
+    /*
+    console.log('days', days);
+    console.log('hours', hours);
+    console.log('minutes', minutes);
+    console.log('seconds', seconds);
+    */
 
     //add zero
     if (hours.length == 1) {
@@ -147,8 +157,7 @@ function countdownTimer() {
       timerNextArray[4] +
       timerNextArray[5] +
       's ';
-      */
-
+*/
     if (timerNextArray[5] != timerCurrentArray[5]) {
       slideUp(5, timerNextArray[5], timerCurrentArray[5]);
     }
